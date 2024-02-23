@@ -7,7 +7,7 @@ const MessageStore = () => {
 
   const [messages, setMassages] = useState([]);
 
-  
+
 
   useEffect(() => {
 
@@ -19,7 +19,6 @@ const MessageStore = () => {
       querySnapshot.forEach((doc : any) => {
         messages.push({ ...doc.data(), id: doc.id });
       });
-      console.log('messages', messages)
       setMassages(messages);
     });
 

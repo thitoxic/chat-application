@@ -2,7 +2,6 @@ import moment from 'moment';
 import React from 'react'
 
 const Messages = ({ messages }) => {
-    console.log('messages', messages)
     const newMessages = messages.sort((a, b) => {
         const timeA = moment(a.time, 'h:mm A');
         const timeB = moment(b.time, 'h:mm A');
