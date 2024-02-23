@@ -5,23 +5,28 @@ const Contacts = () => {
 
     {
         id : 1,
-        Name : "Hrishi",
+        Name : "Adam Sandler",
         text : "What are you doing today?"
     },
     {
         id : 1,
-        Name : "Akhi",
+        Name : "Joey",
         text : "Can we schedule a meeting at 4?"
     },
     {
         id : 1,
-        Name : "Nandi",
+        Name : "Rachel",
         text : "Please check your email once in a day!"
     },
     {
         id : 1,
-        Name : "Seema",
+        Name : "Lukas Beramo",
         text : "Hi"
+    },
+    {
+        id : 1,
+        Name : "Joseph",
+        text : "Had lunch?"
     }
     ]
 
