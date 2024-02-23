@@ -1,0 +1,10 @@
+.full-width {
+    width: -webkit-fill-available;
+}
+
+
+@media (min-width: 1024px) {
+    .mobile-hide {
+      display: none;
+    }
+  }
